@@ -1,0 +1,784 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row-full {
+    width: 99vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 1px;
+    margin-top: 5px;
+    left: 50%;
+    background-color: #606060;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container-inner {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/*subMenu*/
+
+.logo {
+    text-align: center;
+    margin-right: 27px;
+    max-width: 122px;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo div {
+    text-transform: uppercase;
+    color: #153160;
+    font-size: 13px;
+}
+
+.submenu {
+    display: flex;
+}
+
+.submenu ul {
+    display: flex;
+    padding-left: 0px;
+    list-style: none;
+    color: #606060;
+    flex-wrap: wrap;
+}
+
+.submenu ul li {
+    margin: 0px 10px;
+}
+
+
+/*Navbar*/
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    margin: 35px 16px;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+.topnav a:nth-child(1) {
+    margin: 35px 0px 35px 0px;
+    padding-bottom: 13px;
+}
+
+.topnav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #9a121c;
+    transition: width .3s;
+}
+
+.topnav a:hover::after {
+    width: 100%;
+}
+
+.topnav a.active {
+    background-color: #9a121c;
+    color: white;
+    padding: 18px 0px;
+    max-width: 157px;
+    width: 100%;
+    font-size: 19px;
+    margin: 16px 0px;
+    border-bottom: none;
+    float: right;
+}
+
+.topnav a.active:hover::after {
+    width: 0;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/*First section*/
+
+.first-section {
+    min-height: 860px;
+    border-top: 4px solid #9a121c;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(../snipets/jumbo.png);
+    background-size: cover;
+    display: flex;
+    vertical-align: column;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+}
+
+.first-section h1 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 60pt;
+}
+
+.first-section h2 {
+    padding-bottom: 61px;
+    font-size: 46pt;
+}
+
+
+/*Second section*/
+
+.second-section .deepPurple-header {
+    background-color: #9a121c;
+    color: white;
+    text-align: center;
+}
+
+.deepPurple-header h4 {
+    padding: 40px;
+    margin: 0px;
+    font-size: 36pt;
+    font-weight: 100;
+}
+
+.second-section .text {
+    margin: 72px auto 45px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.second-section .button {
+    width: 180px;
+    text-align: center;
+    padding: 17px 0px;
+    text-transform: uppercase;
+    margin: 46px auto 83px;
+    color: #9a121c;
+    border: 1px solid #9a121c;
+    display: block;
+    transition: 0.3s;
+}
+
+.second-section .button:hover {
+    background-color: #9a121c;
+    color: white;
+}
+
+.second-section .button span {
+    display: block;
+}
+
+
+/*third-section*/
+
+
+/*overlay-bottom*/
+
+.ts-text {
+    z-index: 99;
+}
+
+.overlay-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    /* IE6-9 */
+}
+
+
+/*end of overlay-bottom*/
+
+.p20 {
+    padding: 20px;
+}
+
+.m15 {
+    margin: 15px;
+}
+
+.button2 {
+    width: 122px;
+    text-align: center;
+    padding: 11px 0px;
+    text-transform: uppercase;
+    margin: 46px auto 83px;
+    background-color: #9a121c;
+    color: white;
+    border: 1px solid #9a121c;
+    display: block;
+    transition: 0.3s;
+}
+
+.button2:hover {
+    background-color: #ffffff59;
+    color: #9a121c;
+}
+
+.button2 span {
+    display: block;
+}
+
+.col-6 {
+    flex-grow: 8;
+    max-width: 570px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    position: relative;
+}
+
+.col-3 {
+    flex-grow: 1;
+    max-width: 250px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    position: relative;
+}
+
+.third-section {
+    text-transform: uppercase;
+    padding-bottom: 85px;
+}
+
+.third-section .container-inner .first-row,
+.third-section .container-inner .second-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.third-section .first-row .office {
+    background-image: url("../snipets/left-12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.third-section .first-row .fog {
+    background-image: url("../snipets/fog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-section .first-row .fog .logo {
+    margin: 0px auto 5px;
+    max-width: 100%;
+}
+
+.third-section .first-row .fog .button2 {
+    margin: 20px auto 10px;
+}
+
+.third-section .first-row .fog h3 {
+    font-size: 16pt;
+    margin: auto;
+    text-align: center;
+    color: #9a121c;
+    line-height: 1.6;
+}
+
+.third-section .first-row .fog .logo div {
+    font-size: 28px;
+}
+
+.third-section .first-row .fog .logo img {
+    max-width: 135px;
+    margin: 30px auto 20px;
+}
+
+.third-section .first-row .care {
+    background-image: url("../snipets/right-6-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.third-section .second-row .parrents {
+    background-image: url("../snipets/parrents.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    min-height: 236px;
+}
+
+.third-section .second-row .deal {
+    background-image: url("../snipets/deal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    min-height: 236px;
+}
+
+.third-section .second-row .techno {
+    background-image: url("../snipets/techno.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    min-height: 236px;
+}
+
+
+/*fourth-section*/
+
+.fourth-header {
+    color: #9a121c;
+    text-transform: uppercase;
+    font-size: 36pt;
+    text-align: center;
+}
+
+.fourth-text {
+    margin: 30px auto 58px;
+    text-align: center;
+    max-width: 1010px;
+    font-size: 16pt;
+}
+
+
+/*fifth-section*/
+
+.fifth-section .container-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 888px;
+    padding-bottom: 80px;
+}
+
+.fifth-section .fifth-item {
+    max-width: 316px;
+    width: 100%;
+    text-align: center;
+}
+
+.fifth-section .purple-circle {
+    border-radius: 50%;
+    background-color: #9a121c;
+    height: 215px;
+    width: 215px;
+    display: flex;
+    margin: auto;
+}
+
+.fifth-section .purple-circle img {
+    margin: auto;
+    width: 85px;
+}
+
+.fifth-section .fifth-item h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+/*sixt-section*/
+
+.sixt-section .container-inner {
+    max-width: 1010px;
+}
+
+.sixt-logo {
+    width: 135px;
+    margin: auto;
+    display: block;
+    padding: 16px 0px;
+}
+
+.sixt-header h2 {
+    font-size: 40pt;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 57px;
+}
+
+.sixt-text {
+    text-align: center;
+}
+
+.sixt-slider {
+    text-align: center;
+    position: relative;
+    margin: 40px auto 90px;
+}
+
+.sixt-slider .slick-slide img {
+    margin: auto;
+}
+
+.slick-prev:focus,
+.slick-next:focus {
+    border: none;
+    outline: -webkit-focus-ring-color none;
+}
+
+.slick-prev {
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    display: block;
+    content: "";
+    background-image: url("../snipets/arrow-left.png");
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -45px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.slick-next {
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    display: block;
+    content: "";
+    background-image: url("../snipets/arrow-right.png");
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -45px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.footer-head {
+    padding-bottom: 30px;
+    color: #9a121c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer h3 {
+    margin: 0px;
+}
+
+footer {
+    background-color: #efefef;
+}
+
+footer .container-inner {
+    padding: 80px 30px;
+    display: flex;
+}
+
+.footer-item {
+    max-width: 388px;
+}
+
+.first-footer-box .logo {
+    padding-bottom: 30px;
+}
+
+.first-footer-box .ffb-text {
+    line-height: 28pt;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.soc-item {
+    margin-right: 15px;
+    text-align: center !important;
+    padding-bottom: 0px !important;
+}
+
+.second-footer-box {
+    margin: 0px 125px;
+}
+
+.second-footer-box h3 {
+    padding-bottom: 15px;
+}
+
+.second-footer-box .sfb-text {
+    padding-bottom: 30px;
+}
+
+.third-footer-box .tfb-row {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.image-sprite {
+    width: 18px;
+    height: 18px;
+    background-image: url(../snipets/icons-sprite.png);
+    background-repeat: no-repeat;
+    margin: 0px 10px 0px 0px;
+}
+
+.location {
+    background-position: 100% 0%;
+}
+
+.phone {
+    background-position: 47% 47%;
+}
+
+.mail {
+    background-position: 47% 105%;
+}
+
+.payment .cards {
+    margin: 20px 0px;
+}
+
+.payment .cards img {
+    margin-right: 3px;
+}
+
+.endline {
+    margin: auto;
+    padding: 46px 0px;
+    background-color: #9a121c;
+    color: white;
+    text-align: center;
+}
+
+
+/*Mobile full width menu*/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/*media query navbar*/
+
+@media screen and (max-width: 1064px) {
+    .topnav a:not(:nth-child(6)) {
+        display: none;
+        border-bottom: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        margin: 3px 0px;
+    }
+}
+
+@media(max-width: 1064px) {
+    .topnav a:nth-child(1) {
+        margin: 75px 0px 35px 0px;
+    }
+    .topnav a.active {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+    }
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .submenu ul {
+        margin: 0px;
+    }
+    .submenu ul li {
+        margin: 0px 5px 5px 0px;
+        font-size: 14px;
+    }
+}
+
+
+/*media query*/
+
+@media (max-width: 1444px) {
+    .topnav a.active {
+        max-width: 122px;
+        padding: 11px 0px;
+        font-size: 16px;
+    }
+    footer .container-inner {
+        display: block;
+    }
+    .footer-item {
+        max-width: 100%;
+    }
+    .social {
+        margin: 20px auto 40px;
+    }
+    .social .logo {
+        display: none;
+    }
+    .second-footer-box {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1040px) {
+    .first-section h1 {
+        font-size: 23px;
+    }
+    .first-section h2,
+    .deepPurple-header h4,
+    .fourth-header,
+    .sixt-header h2 {
+        font-size: 18px;
+    }
+    .first-section {
+        min-height: 484px;
+    }
+    .third-section .container-inner .first-row,
+    .third-section .container-inner .second-row {
+        display: block;
+    }
+    .third-section .first-row .care,
+    .third-section .first-row .office {
+        min-height: 236px;
+    }
+    .col-6 {
+        max-width: 90%;
+        margin: auto;
+    }
+    .col-3 {
+        max-width: 90%;
+        vertical-align: top;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 668px) {
+    .fifth-section .fifth-item h4,
+    .fifth-section .fifth-item {
+        max-width: 350px;
+        margin: 20px auto;
+    }
+    .fifth-section .container-inner {
+        display: block;
+    }
+    .fifth-section .purple-circle {
+        height: auto;
+        background-color: initial;
+    }
+    .fifth-section .purple-circle img {
+        margin: auto;
+        width: 85px;
+        background-color: #9a121c;
+        border: 1px solid #9a121c;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    .first-section {
+        min-height: 258px;
+    }
+}
