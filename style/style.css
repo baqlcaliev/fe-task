@@ -18,7 +18,7 @@ body {
 }
 
 .container-inner {
-    max-width: 1170px;
+    max-width: 1430px;
     margin: auto;
 }
 
@@ -84,6 +84,7 @@ a {
     text-decoration: none;
     font-size: 16pt;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .topnav a:nth-child(1) {
@@ -184,6 +185,7 @@ a {
     border: 1px solid #9a121c;
     display: block;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 .second-section .button:hover {
@@ -270,7 +272,7 @@ a {
 
 .col-3 {
     flex-grow: 1;
-    max-width: 250px;
+    max-width: 322px;
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -438,6 +440,7 @@ a {
     text-align: center;
     margin: 0px;
     padding-bottom: 57px;
+    text-transform: uppercase;
 }
 
 .sixt-text {
@@ -587,7 +590,7 @@ footer .container-inner {
 
 .endline {
     margin: auto;
-    padding: 46px 30px;
+    padding: 46px 0px;
     background-color: #9a121c;
     color: white;
     text-align: center;
