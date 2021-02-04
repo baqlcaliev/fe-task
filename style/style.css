@@ -88,7 +88,7 @@ a {
 }
 
 .topnav a:nth-child(1) {
-    margin: 35px 0px 35px 0px;
+    margin: 35px 0px 20px 0px;
     padding-bottom: 13px;
 }
 
@@ -436,7 +436,7 @@ a {
 }
 
 .sixt-header h2 {
-    font-size: 40pt;
+    font-size: 34pt;
     text-align: center;
     margin: 0px;
     padding-bottom: 57px;
