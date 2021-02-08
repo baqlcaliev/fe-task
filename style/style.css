@@ -709,12 +709,7 @@ footer .container-inner {
         padding: 11px 0px;
         font-size: 16px;
     }
-    footer .container-inner {
-        display: block;
-    }
-    .footer-item {
-        max-width: 100%;
-    }
+    
     .social {
         margin: 20px auto 40px;
     }
@@ -727,6 +722,12 @@ footer .container-inner {
 }
 
 @media (max-width: 1040px) {
+footer .container-inner {
+        display: block;
+    }
+    .footer-item {
+        max-width: 100%;
+    }
     .first-section h1 {
         font-size: 23px;
     }
